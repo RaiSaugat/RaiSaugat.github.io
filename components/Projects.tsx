@@ -1,7 +1,7 @@
 'use client';
 
 import { projects } from '@/lib/data';
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { ProjectCard } from './ProjectCard';
 
 export function Projects() {

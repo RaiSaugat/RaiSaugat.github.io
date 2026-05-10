@@ -1,7 +1,7 @@
 "use client";
 
 import { navItems } from "@/lib/data";
-import { motion, useMotionValueEvent, useScroll } from "framer-motion";
+import { motion, useMotionValueEvent, useScroll } from "motion/react";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import Image from "next/image";

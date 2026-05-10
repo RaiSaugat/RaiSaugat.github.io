@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 
 const paragraphs = [
   "I'm a Senior Software Engineer with over 7 years of experience building interactive user interfaces and scalable web applications.",
