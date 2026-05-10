@@ -88,11 +88,10 @@ export const experiences: Experience[] = [
         role: "Sr. Software Engineer",
         period: "Aug 2022 - Present",
         description: [
-            "Architected the frontend for the 'Inu' project using Next.js, integrating React Query for efficient server-state management and NextAuth.js for secure authentication.",
-            "Enhanced the 'Nusan' project by engineering a custom QR code generation system and a CRM notice module, leveraging PostgreSQL and Sequelize.",
-            "Developed a comprehensive RESTful API from scratch for the 'Golf' project using Express.js and Prisma ORM, implementing secure user authentication and complex group CRUD operations.",
-            "Engineered and deployed full-stack features for 'Afritrails' leveraging AWS Serverless (Lambda, S3), optimizing API routing and database queries for high availability.",
-            "Built a real-time translation application utilizing Socket.io, eliminating communication lag between presenters and translators during live presentations.",
+            "Architected the 'Inu' frontend with Next.js and React Query, integrating NextAuth.js for secure, scalable authentication.",
+            "Built RESTful APIs for the 'Golf' project using Express.js and Prisma ORM, covering auth and group management end-to-end.",
+            "Deployed serverless features for 'Afritrails' on AWS Lambda and S3, optimizing API routing and query performance.",
+            "Built a real-time translation app with Socket.io, cutting communication lag during live multilingual presentations.",
         ],
     },
     {
@@ -101,9 +100,9 @@ export const experiences: Experience[] = [
         role: "Software Engineer",
         period: "Dec 2020 - Aug 2022",
         description: [
-            "Developed a scalable library of reusable UI components using React and CSS Modules, ensuring design consistency and accelerating the development cycle for new features.",
-            "Optimized complex global state management using Redux, reducing unnecessary component re-renders and improving overall UI performance.",
-            "Collaborated in an Agile environment, contributing to sprint planning and daily stand-ups to ensure timely delivery of production-ready frontend solutions.",
+            "Built a reusable React component library with CSS Modules, improving consistency and speeding up feature delivery.",
+            "Optimized Redux state management to eliminate unnecessary re-renders and improve overall UI responsiveness.",
+            "Shipped features consistently in an Agile team through sprint planning and daily stand-ups.",
         ],
     },
     {
@@ -112,10 +111,9 @@ export const experiences: Experience[] = [
         role: "Jr. Frontend Engineer",
         period: "Jan 2018 - Dec 2020",
         description: [
-            "Specialized in building responsive, cross-browser compatible interfaces using React and React Native, ensuring seamless experience across mobile and web platforms.",
-            "Engineered responsive UIs for the 'Khabar Garau' project, ensuring cross-device compatibility and contributing to supporting backend APIs.",
-            "Developed mobile applications ('Skjutsgruppen' and 'Municipality app') by translating complex Figma designs into clean, reusable component architectures.",
-            "Improved user engagement for 'NGODistro' by implementing fluid animations and responsive design patterns.",
+            "Built responsive React and React Native interfaces across web and mobile for multiple client projects.",
+            "Delivered the 'Khabar Garau' UI with full cross-device compatibility, contributing to supporting backend APIs.",
+            "Translated Figma designs into clean, reusable components for 'Skjutsgruppen' and a Municipality mobile app.",
         ],
     },
     {
@@ -124,8 +122,8 @@ export const experiences: Experience[] = [
         role: "Intern & Trainee",
         period: "May 2017 - Jan 2018",
         description: [
-            "Streamlined localization workflows by automating translation processes, reducing manual effort and ensuring linguistic accuracy across applications.",
-            "Developed pixel-perfect, responsive web pages using HTML, CSS, and JavaScript, adhering to corporate coding standards and project lifecycles.",
+            "Automated localization workflows, reducing manual translation effort across multiple applications.",
+            "Built pixel-perfect, responsive pages with HTML, CSS, and JavaScript to corporate coding standards.",
         ],
     },
 ];
