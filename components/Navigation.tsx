@@ -47,7 +47,7 @@ export function Navigation() {
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                 >
-                    <Image src="/logo.png" alt="Logo" width={40} height={40} />
+                    <Image src="/logo.webp" alt="Logo" width={40} height={40} />
                 </motion.a>
 
                 {/* Desktop Navigation */}

@@ -23,7 +23,7 @@ export function Experience() {
                     <h2 className="text-4xl md:text-5xl font-bold mb-4">
                         Experience
                     </h2>
-                    <p className="text-muted text-lg max-w-xl">
+                    <p className="text-foreground/70 text-lg max-w-xl">
                         My professional journey in software development.
                     </p>
                 </motion.div>
@@ -58,7 +58,7 @@ export function Experience() {
                                 />
 
                                 <div className="p-5 bg-background border border-foreground/5 rounded-2xl">
-                                    <span className="text-xs font-mono text-muted">
+                                    <span className="text-xs font-mono text-foreground/60">
                                         {e.period}
                                     </span>
                                     <h3 className="text-lg font-bold mt-1">{e.role}</h3>
@@ -69,7 +69,7 @@ export function Experience() {
                                         {e.description.map((item, j) => (
                                             <li
                                                 key={j}
-                                                className="flex gap-2 text-sm text-muted leading-relaxed"
+                                                className="flex gap-2 text-sm text-foreground/80 leading-relaxed"
                                             >
                                                 <span className="text-accent mt-1 shrink-0 text-xs">
                                                     ▹
@@ -99,7 +99,7 @@ export function Experience() {
                                 key={e.id}
                                 onClick={() => setActive(i)}
                                 className={`px-6 h-16 text-left whitespace-nowrap text-sm font-medium transition-colors duration-200
-                                    ${active === i ? "text-accent" : "text-muted hover:text-foreground hover:bg-foreground/5"}`}
+                                    ${active === i ? "text-accent" : "text-foreground/65 hover:text-foreground hover:bg-foreground/5"}`}
                             >
                                 {e.role}
                             </button>
@@ -122,7 +122,7 @@ export function Experience() {
                                             {exp.company}
                                         </span>
                                         <span className="text-foreground/20">·</span>
-                                        <span className="text-sm text-muted font-mono">
+                                        <span className="text-sm text-foreground/60 font-mono">
                                             {exp.period}
                                         </span>
                                     </div>
@@ -135,7 +135,7 @@ export function Experience() {
                                             initial={{ opacity: 0, y: 10 }}
                                             animate={{ opacity: 1, y: 0 }}
                                             transition={{ duration: 0.3, delay: i * 0.07, ease }}
-                                            className="flex gap-3 text-muted leading-relaxed"
+                                            className="flex gap-3 text-foreground/80 leading-relaxed"
                                         >
                                             <span className="text-accent mt-1.5 shrink-0 text-xs">
                                                 ▹
@@ -157,7 +157,7 @@ export function Experience() {
                                             }`}
                                         />
                                     ))}
-                                    <span className="text-xs text-muted ml-2 font-mono">
+                                    <span className="text-xs text-foreground/60 ml-2 font-mono">
                                         {String(active + 1).padStart(2, "0")} /{" "}
                                         {String(experiences.length).padStart(2, "0")}
                                     </span>
